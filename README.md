@@ -32,7 +32,7 @@ function draw() {
 ```
 ___
 
-###Graphics
+###Graphics eg. Drawing Squares, Sprites, Lines
 ___
 **Drawing Squares**
 
@@ -93,13 +93,19 @@ drawImage(myImage, image.x, image.y, image.height, image.width);
 > **Required** | Height is the height of the graphic.
 
 
-###Game Logic
+###Game Logic eg. Tweening & Collision Checks
 ___
-###User Input
+###User Input eg. Keypresses, Mouse Clicks
 ___
-###Sound
+###Sound eg. Background Music
+**Playing Sound Effects**
+```javascript
+playSound(url);
+//eg. playSound("jump.wav").
+// Plays sound stored at URL.
+```
 ___
-###Data Handling
+###Data Handling eg. Local Storage
 ___
 **Saving Local Data**
 ```javascript
@@ -137,6 +143,6 @@ No Others At The Moment.
 
 > Add Docs for User Input
 
-> Add Docs for sound functions
+> Add Docs for sound functions + Add Bkground Music
 
-> Build game logic for tweening...
+> Build game logic for tweening... Collision checkr.
