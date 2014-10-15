@@ -39,15 +39,15 @@ ___
 fillRect(x, y, width, height, color)
 ```
 > #### Pretty Self Explainatory.
-> **Required** X is the x coardinate at which the graphic is to be drawn.
+> **Required** | X is the x coardinate at which the graphic is to be drawn.
 
-> **Required** Y is the Y coardinate at which the graphic is to be drawn.
+> **Required** | Y is the Y coardinate at which the graphic is to be drawn.
 
-> **Required** Width is the width of the graphic
+> **Required** | Width is the width of the graphic
 
-> **Required** Height is the height of the graphic.
+> **Required** | Height is the height of the graphic.
 
-> **Optional** Color is the color of the square drawn.
+> **Optional** | Color is the color of the square drawn.
 
 
 ###Game Logic
