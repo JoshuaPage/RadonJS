@@ -48,6 +48,8 @@ fillRect(x, y, width, height, color)
 
 > **Optional** | Color is the color of the square drawn.
 
+---
+  A Demonstration
 
 ```javascript
 function setup() {
