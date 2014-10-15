@@ -59,6 +59,7 @@ function setup() {
 function draw() {
     fillRect(shape1.x, shape1.y, shape1.width, shape1.height, shape1.color);
     fillRect(shape2.x, shape2.y, shape2.width, shape2.height, shape2.color);
+}
 ```
 
 The above code demonstrates how to draw two rectangles side by side on the canvas. As I explained above in the setup() function you declair the starting positions for your variables and in the draw() function you draw the rectanges at the starting points you declaired.
