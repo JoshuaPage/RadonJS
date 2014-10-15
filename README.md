@@ -126,3 +126,10 @@ http.request(url, successfunction);
 ###Others
 ___
 No Others At The Moment.
+
+
+> ###Todo:
+> Create Graphic for Circle, Line ect...
+> Add Docs for User Input
+> Add Docs for sound functions
+> Build game logic for tweening...
