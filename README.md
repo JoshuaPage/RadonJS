@@ -6,6 +6,16 @@ Radon JS is my Javascript Framework for building 2d canvas games in Javascript. 
 ##Documentation
 Welcome to the documentation for my Javascript Game Framework.
 ###Getting Started
+```javascript
+function setup() {
+}
+
+function draw() {
+}
+```
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
 ___
 
 ###Graphics
