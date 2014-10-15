@@ -83,5 +83,17 @@ fillRect(x, y, width, height, color)
 ___
 ###User Input
 ___
+###Sound
+___
 ###Data Handling
+___
+**Saving Local Data**
+
+**Reading Local Data**
+
+**Deleting Local Data**
+
+**HTTP Requests**
+
+###Other
 ___
