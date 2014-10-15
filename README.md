@@ -30,9 +30,6 @@ function draw() {
   fillRect(shape1.x, shape1.y, shape1.width, shape1.height, shape1.color);
 }
 ```
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
 ___
 
 ###Graphics
