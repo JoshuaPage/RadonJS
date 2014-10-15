@@ -101,7 +101,7 @@ ___
 ___
 **Saving Local Data**
 ```javascript
-saveLocalDate(name, value, days)
+saveLocalData(name, value, days)
 //eg. saveLocalDate("highscore", "320", "365")
 //Creates a local Variable High Score with a value of 320
 //to be stored for 1 year.
