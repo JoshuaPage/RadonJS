@@ -38,7 +38,6 @@ ___
 ```javascript
 fillRect(x, y, width, height, color)
 ```
-> #### Pretty Self Explainatory.
 > **Required** | X is the x coardinate at which the graphic is to be drawn.
 
 > **Required** | Y is the Y coardinate at which the graphic is to be drawn.
