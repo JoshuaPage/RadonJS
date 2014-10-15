@@ -121,7 +121,8 @@ deleteLocalDate(name)
 **HTTP Requests**
 ```javascript
 http.request(url, successfunction);
-//Requests Data from URL.
+//Requests Data from URL and executes successfunction
+//With recieved data
 ```
 ###Others
 ___
