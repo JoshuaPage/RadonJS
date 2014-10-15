@@ -100,12 +100,29 @@ ___
 ###Data Handling
 ___
 **Saving Local Data**
-
+```javascript
+saveLocalDate(name, value, days)
+//eg. saveLocalDate("highscore", "320", "365")
+//Creates a local Variable High Score with a value of 320
+//to be stored for 1 year.
+```
 **Reading Local Data**
-
+```javascript
+readLocalData(name)
+//eg. var score = readLocalDate("highscore");
+//Reads the Local Variable High Score
+```
 **Deleting Local Data**
-
+```javascript
+deleteLocalDate(name)
+//eg. deleteLocalDate("highscore");
+//Deleted the local Variable High Score
+```
 **HTTP Requests**
-
-###Other
+```javascript
+http.request(url, successfunction);
+//Requests Data from URL.
+```
+###Others
 ___
+No Others At The Moment.
