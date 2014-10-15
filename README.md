@@ -49,8 +49,8 @@ fillRect(x, y, width, height, color)
 
 > **Optional** | Color is the color of the square drawn.
 
-
-**Sprites**
+___
+**Drawing Sprites**
 ```javascript
 fillRect(x, y, width, height, color)
 ```
