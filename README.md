@@ -15,6 +15,8 @@ ___
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
 
 ###Game Logic
 ___
