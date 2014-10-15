@@ -35,6 +35,7 @@ ___
 ###Graphics
 ___
 **Drawing Squares**
+
 The text below explains how to draw a square on a 2d canvas.
 ```javascript
 fillRect(x, y, width, height, color)
@@ -67,6 +68,7 @@ function draw() {
 The above code demonstrates how to draw two rectangles side by side on the canvas. As I explained above in the setup() function you declair the starting positions for your variables and in the draw() function you draw the rectanges at the starting points you declaired.
 ___
 **Drawing Sprites**
+
 Drawing Sprites is slightly more complacated than drawing squares as you have to firsly load the image for the sprite in the init() function before you can draw the sprite in the draw() function.
 ```javascript
 init() {
