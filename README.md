@@ -35,6 +35,7 @@ ___
 ###Graphics
 ___
 **Drawing Squares**
+The text below explains how to draw a square on a 2d canvas.
 ```javascript
 fillRect(x, y, width, height, color)
 ```
@@ -66,10 +67,21 @@ function draw() {
 The above code demonstrates how to draw two rectangles side by side on the canvas. As I explained above in the setup() function you declair the starting positions for your variables and in the draw() function you draw the rectanges at the starting points you declaired.
 ___
 **Drawing Sprites**
+Drawing Sprites is slightly more complacated than drawing squares as you have to firsly load the image for the sprite in the init() function before you can draw the sprite in the draw() function.
 ```javascript
-fillRect(x, y, width, height, color)
+init() {
+myImage = loadImage("logo.png");
+image = { x: 50, y: 10, width: 100, height: 100};
+...
+}
+
+draw() {
+drawImage(myImage, image.x, image.y, image.height, image.width);
+...
+}
 ```
-> #### Pretty Self Explainatory.
+> **Required** | The first variable is the image variable your declaired in your init() function.
+
 > **Required** | X is the x coardinate at which the graphic is to be drawn.
 
 > **Required** | Y is the Y coardinate at which the graphic is to be drawn.
@@ -77,8 +89,6 @@ fillRect(x, y, width, height, color)
 > **Required** | Width is the width of the graphic
 
 > **Required** | Height is the height of the graphic.
-
-> **Optional** | Color is the color of the square drawn.
 
 
 ###Game Logic
