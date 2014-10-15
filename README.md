@@ -10,10 +10,9 @@ ___
 
 ###Graphics
 ___
-
+**Drawing Squares**
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+fillRect(x, y, width, height, color)
 ```
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
