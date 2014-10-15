@@ -38,8 +38,12 @@ ___
 ```javascript
 fillRect(x, y, width, height, color)
 ```
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> #### Pretty Self Explainatory.
+> **Required** X is the x coardinate at which the graphic is to be drawn.
+> **Required** Y is the Y coardinate at which the graphic is to be drawn.
+> **Required** Width is the width of the graphic
+> **Required** Height is the height of the graphic.
+> **Optional** Color is the color of the square drawn.
 
 ###Game Logic
 ___
